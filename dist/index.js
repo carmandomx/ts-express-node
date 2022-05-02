@@ -20,7 +20,7 @@ rootRouter.use('/users', users_routes_1.default);
 app.use(express_1.default.json());
 app.use(rootRouter);
 app.listen(port, () => {
-    console.log('Server is up and running');
+    console.log('Server is up and running at port ', port);
 });
 // GET users/:userId
 // POST users

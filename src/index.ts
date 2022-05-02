@@ -26,7 +26,7 @@ app.use(express.json())
 app.use(rootRouter)
 
 app.listen(port, () => {
-    console.log('Server is up and running')
+    console.log('Server is up and running at port ', port )
 })
 
 // GET users/:userId
